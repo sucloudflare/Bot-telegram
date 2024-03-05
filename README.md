@@ -30,8 +30,8 @@
             </ul>
             
   <pre>
-          <code>npm install</code>
-           </pre>
+       <code>npm install</code>
+        </pre>
    </li>
   </ol>
 
@@ -41,20 +41,14 @@
     
    <pre>
        <code>npm start</code>
-    </pre>
-
+   </pre>
    <p>O bot agora está ouvindo em <code>http://localhost:3000</code>. Certifique-se de que o seu webhook do Telegram esteja configurado corretamente.</p>
-
    <h2>Como Interagir com o Bot</h2>
-
   <ul>
         <li>Encontre o seu bot no Telegram pesquisando pelo nome de usuário.</li>
         <li>Inicie uma conversa clicando em "Iniciar".</li>
         <li>Envie mensagens para interagir com o bot.</li>
     </ul>
-
    <h2>Licença</h2>
-
   <p>Este projeto é licenciado sob a licença MIT - veja o arquivo <code>LICENSE</code> para mais detalhes.</p>
-
    <p>Lembre-se de personalizar as instruções e as informações específicas do seu bot conforme necessário. Isso fornece uma estrutura básica para orientar os usuários sobre a configuração e execução do seu projeto.</p>
