@@ -32,7 +32,7 @@ app.post("/new-message", function (req, res) {
     return res.end();
   }
 
-  // Se chegamos até aqui, significa que recebemos uma mensagem contendo a palavra "marco".
+  // Se chegamos até aqui, significa que recebemos uma mensagem contendo a palavra "Bruno".
   // Responda chamando a API do bot do Telegram e respondendo ao chat_id apropriado com a palavra "Polo!!"
   sendMessage("Polo!! 😄 Como posso ajudar mais?", message.chat.id);
 });
