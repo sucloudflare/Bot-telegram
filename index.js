@@ -18,7 +18,7 @@ app.post("/new-message", function (req, res) {
   // Cada mensagem contém "text" e um objeto "chat", que possui um "id" que é o id do chat
 
   if (!message || message.text.toLowerCase().indexOf("Bruno") < 0) {
-    // Se a mensagem estiver ausente ou se nossa mensagem não tiver a palavra "marco", verifique outras condições
+    // Se a mensagem estiver ausente ou se nossa mensagem não tiver a palavra "Bruno", verifique outras condições
     if (
       message.text.toLowerCase().includes("como você está") ||
       message.text.toLowerCase().includes("como vai você")
